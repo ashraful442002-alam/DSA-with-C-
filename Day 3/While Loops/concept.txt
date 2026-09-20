@@ -1,0 +1,25 @@
+//while loops 
+
+
+//if condition is fullfill then yes otherwise no and check condition age
+
+=====*=====
+
+initialization
+while ( condition)
+{
+    repeated work;
+
+    upadate;
+}
+
+
+///example :
+
+int i = 1;
+
+while(i<=5)
+{
+    cout<<i<<endl;
+    i++
+}

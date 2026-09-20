@@ -1,0 +1,13 @@
+//for loop
+
+for(initialization ; condition ; updating)
+{
+    //repeated work;
+}
+
+|  i | sum before | sum after |
+| -: | ---------: | --------: |
+|  1 |          0 |         1 |
+|  2 |          1 |         3 |
+|  3 |          3 |         6 |
+|  4 |          6 |         10 |
