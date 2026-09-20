@@ -8,21 +8,21 @@ int main ()
     long long int n;
     cin>>n;
 
-    int max =0;
+    int min;
 
     while (n>0)
     {
         int digit = n%10;
 
-        if(digit>max)
+        if(digit<min)
         {
-            max = digit;
+            min = digit;
         }
 
         n = n/10;
     }
 
-    cout<<"Largest digit : "<<max;
+    cout<<"Smallest digit : "<<min;
 
     return 0;
 }
