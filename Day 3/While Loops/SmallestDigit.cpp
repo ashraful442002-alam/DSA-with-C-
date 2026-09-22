@@ -8,7 +8,7 @@ int main ()
     long long int n;
     cin>>n;
 
-    int min;
+    int min = n%10;
 
     while (n>0)
     {
